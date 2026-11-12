@@ -1,0 +1,4 @@
+# Python 3.9+. Step 10 (tables, figures) and step 11c (figure composition). The figures in the post were made with these versions.
+numpy==2.0.2
+matplotlib==3.9.4
+pillow==11.3.0

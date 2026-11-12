@@ -1,0 +1,12 @@
+# Python 3.12. Steps 1-5 (AutoDock Vina docking, standard preparation, RMSD).
+# Used for the published numbers: Open Babel 3.1.0 (from openbabel-wheel 3.1.1.23), Vina 1.2.7, Meeko 0.8.0.
+vina==1.2.7
+meeko==0.8.0
+openbabel-wheel==3.1.1.23
+rdkit==2026.9.1
+spyrmsd==0.9.0
+numpy==2.5.4
+scipy==1.18.1
+gemmi==0.7.5
+rustworkx==0.18.1
+pillow==13.0.0

@@ -1,0 +1,7 @@
+crystal-pose in-place score per receptor (kcal/mol), then after local minimisation:
+  metis_rec -5.83 -> -6.67
+  obabel_rec -6.12 -> -6.92
+metis_rec+metis_lig      top score -7.17+-0.09  top-RMSD med 7.96 (min 7.88 max 8.70)  best-of-9 med 1.29  seeds top<2A: 0/5
+metis_rec+meeko_lig      top score -6.98+-0.16  top-RMSD med 8.62 (min 1.39 max 8.64)  best-of-9 med 1.39  seeds top<2A: 1/5
+obabel_rec+meeko_lig     top score -7.72+-0.10  top-RMSD med 7.94 (min 7.93 max 7.96)  best-of-9 med 1.54  seeds top<2A: 0/5
+obabel_rec+metis_lig     top score -7.80+-0.02  top-RMSD med 7.95 (min 7.88 max 7.96)  best-of-9 med 1.42  seeds top<2A: 0/5

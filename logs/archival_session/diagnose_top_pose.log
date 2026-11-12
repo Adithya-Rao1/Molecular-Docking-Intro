@@ -1,0 +1,26 @@
+WARNING: Search space volume is greater than 27000 Angstrom^3 (See FAQ)
+WARNING: Search space volume is greater than 27000 Angstrom^3 (See FAQ)
+WARNING: Search space volume is greater than 27000 Angstrom^3 (See FAQ)
+crystal: N1..Met769 N 2.70 A | N3..Thr766 OG1 4.15 A | centroid [22.0, 0.3, 52.8]
+
+== Vina scoring, box as Metis wrote it, ex 32, seed 1 ==
+ pose 1 score -7.82 RMSD 8.0 | N1..Met769N 4.2 | N3..Thr766OG1 7.4 | centroid shift 3.2 A | N1 shift 1.7 A | terms(total,inter,intra,torsion)=[-7.82, -12.4, -1.14, 4.57]
+ pose 2 score -7.64 RMSD 8.6 | N1..Met769N 10.6 | N3..Thr766OG1 9.6 | centroid shift 1.7 A | N1 shift 8.1 A | terms(total,inter,intra,torsion)=[-7.64, -11.57, -1.67, 4.47]
+ pose 3 score -7.50 RMSD 8.0 | N1..Met769N 4.6 | N3..Thr766OG1 5.9 | centroid shift 0.7 A | N1 shift 2.6 A | terms(total,inter,intra,torsion)=[-7.5, -12.1, -0.91, 4.38]
+ pose 4 score -7.46 RMSD 8.3 | N1..Met769N 4.5 | N3..Thr766OG1 5.9 | centroid shift 1.4 A | N1 shift 2.7 A | terms(total,inter,intra,torsion)=[-7.46, -12.35, -0.61, 4.36]
+ near-crystal pose is #9 score -7.17 RMSD 2.3 | N1..Met769N 3.5 | N3..Thr766OG1 4.4 | centroid shift 1.2 A | N1 shift 1.1 A | terms=[-7.17, -11.1, -1.4, 4.19]
+
+== bigger box (35 A cube), ex 64 ==
+ seed 1 top score -7.80 top RMSD 7.9 | best RMSD 3.2 at rank 9 (score -7.22)
+ seed 2 top score -7.72 top RMSD 8.0 | best RMSD 5.9 at rank 4 (score -7.42)
+ seed 3 top score -7.78 top RMSD 7.9 | best RMSD 6.0 at rank 7 (score -7.38)
+
+== exhaustiveness 128, Metis box ==
+ seed 1 top score -7.82 top RMSD 8.0 | best RMSD 1.5 at rank 3 (score -7.59)
+ seed 2 top score -7.78 top RMSD 7.9 | best RMSD 2.0 at rank 3 (score -7.61)
+ seed 3 top score -7.81 top RMSD 7.9 | best RMSD 1.4 at rank 6 (score -7.37)
+
+== Vinardo scoring function (same package), Metis box, ex 32 ==
+ seed 1 top score -5.29 top RMSD 4.7 | best RMSD 1.2 at rank 2 (score -5.09)
+ seed 2 top score -5.20 top RMSD 4.7 | best RMSD 1.1 at rank 7 (score -4.66)
+ seed 3 top score -5.44 top RMSD 4.7 | best RMSD 1.2 at rank 2 (score -5.01)

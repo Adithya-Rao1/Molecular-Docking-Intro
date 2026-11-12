@@ -1,0 +1,52 @@
+AM1-BCC charges 130s
+platform OpenCL
+<env>/lib/python3.11/site-packages/openff/interchange/components/interchange.py:1119: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  if isinstance(obj, functools._lru_cache_wrapper) and obj.__module__.startswith("openff.interchange"):
+<env>/lib/python3.11/site-packages/openff/interchange/smirnoff/_create.py:151: PresetChargesAndVirtualSitesWarning: Preset charges were provided (via `charge_from_molecules`) alongside a force field that includes virtual site parameters. Note that virtual sites will be applied charges from the force field and cannot be given preset charges. Virtual sites may also affect the charges of their orientation atoms, even if those atoms are given preset charges.
+  warnings.warn(
+ 1/46 crystal=False seed 1 rank 1 vina -7.27 RMSD 7.9 | MM-GBSA dE -41.3 (strain-corrected -33.7) | ligand moved 1.06 A
+ 2/46 crystal=False seed 1 rank 2 vina -7.24 RMSD 7.8 | MM-GBSA dE -40.6 (strain-corrected -33.1) | ligand moved 0.78 A
+ 3/46 crystal=False seed 1 rank 3 vina -7.16 RMSD 8.7 | MM-GBSA dE -41.6 (strain-corrected -36.0) | ligand moved 1.20 A
+ 4/46 crystal=False seed 1 rank 4 vina -7.10 RMSD 8.5 | MM-GBSA dE -37.9 (strain-corrected -33.8) | ligand moved 0.82 A
+ 5/46 crystal=False seed 1 rank 5 vina -7.08 RMSD 8.4 | MM-GBSA dE -51.1 (strain-corrected -46.0) | ligand moved 1.07 A
+ 6/46 crystal=False seed 1 rank 6 vina -6.91 RMSD 7.5 | MM-GBSA dE -43.9 (strain-corrected -40.9) | ligand moved 2.32 A
+ 7/46 crystal=False seed 1 rank 7 vina -6.91 RMSD 1.3 | MM-GBSA dE -55.8 (strain-corrected -51.0) | ligand moved 1.20 A
+ 8/46 crystal=False seed 1 rank 8 vina -6.80 RMSD 4.6 | MM-GBSA dE -48.8 (strain-corrected -43.0) | ligand moved 0.55 A
+ 9/46 crystal=False seed 1 rank 9 vina -6.76 RMSD 8.2 | MM-GBSA dE -54.9 (strain-corrected -49.9) | ligand moved 1.66 A
+10/46 crystal=False seed 2 rank 1 vina -7.01 RMSD 8.7 | MM-GBSA dE -41.6 (strain-corrected -36.0) | ligand moved 1.13 A
+11/46 crystal=False seed 2 rank 2 vina -6.98 RMSD 7.6 | MM-GBSA dE -39.3 (strain-corrected -34.0) | ligand moved 1.43 A
+12/46 crystal=False seed 2 rank 3 vina -6.96 RMSD 8.2 | MM-GBSA dE -40.1 (strain-corrected -32.8) | ligand moved 0.90 A
+13/46 crystal=False seed 2 rank 4 vina -6.96 RMSD 4.9 | MM-GBSA dE -57.2 (strain-corrected -50.1) | ligand moved 0.60 A
+14/46 crystal=False seed 2 rank 5 vina -6.89 RMSD 1.4 | MM-GBSA dE -52.2 (strain-corrected -49.4) | ligand moved 0.96 A
+15/46 crystal=False seed 2 rank 6 vina -6.87 RMSD 8.5 | MM-GBSA dE -38.3 (strain-corrected -34.0) | ligand moved 0.81 A
+16/46 crystal=False seed 2 rank 7 vina -6.59 RMSD 2.8 | MM-GBSA dE -49.3 (strain-corrected -45.3) | ligand moved 0.85 A
+17/46 crystal=False seed 2 rank 8 vina -6.51 RMSD 4.7 | MM-GBSA dE -46.8 (strain-corrected -41.5) | ligand moved 0.51 A
+18/46 crystal=False seed 2 rank 9 vina -6.49 RMSD 8.2 | MM-GBSA dE -36.3 (strain-corrected -27.9) | ligand moved 0.61 A
+19/46 crystal=False seed 3 rank 1 vina -7.15 RMSD 7.9 | MM-GBSA dE -41.4 (strain-corrected -33.9) | ligand moved 0.93 A
+20/46 crystal=False seed 3 rank 2 vina -7.09 RMSD 8.4 | MM-GBSA dE -43.5 (strain-corrected -35.5) | ligand moved 1.01 A
+21/46 crystal=False seed 3 rank 3 vina -7.07 RMSD 8.0 | MM-GBSA dE -39.5 (strain-corrected -31.5) | ligand moved 0.84 A
+22/46 crystal=False seed 3 rank 4 vina -7.03 RMSD 8.8 | MM-GBSA dE -45.7 (strain-corrected -37.1) | ligand moved 0.92 A
+23/46 crystal=False seed 3 rank 5 vina -6.91 RMSD 8.4 | MM-GBSA dE -48.9 (strain-corrected -43.5) | ligand moved 0.79 A
+24/46 crystal=False seed 3 rank 6 vina -6.83 RMSD 8.6 | MM-GBSA dE -40.2 (strain-corrected -36.8) | ligand moved 2.16 A
+25/46 crystal=False seed 3 rank 7 vina -6.80 RMSD 1.7 | MM-GBSA dE -54.2 (strain-corrected -48.4) | ligand moved 1.04 A
+26/46 crystal=False seed 3 rank 8 vina -6.79 RMSD 4.7 | MM-GBSA dE -60.1 (strain-corrected -51.4) | ligand moved 0.69 A
+27/46 crystal=False seed 3 rank 9 vina -6.75 RMSD 3.1 | MM-GBSA dE -43.5 (strain-corrected -38.1) | ligand moved 0.78 A
+28/46 crystal=False seed 4 rank 1 vina -7.23 RMSD 8.0 | MM-GBSA dE -35.0 (strain-corrected -33.6) | ligand moved 1.72 A
+29/46 crystal=False seed 4 rank 2 vina -7.10 RMSD 8.7 | MM-GBSA dE -41.6 (strain-corrected -36.0) | ligand moved 1.17 A
+30/46 crystal=False seed 4 rank 3 vina -7.02 RMSD 8.5 | MM-GBSA dE -38.1 (strain-corrected -33.8) | ligand moved 0.81 A
+31/46 crystal=False seed 4 rank 4 vina -6.95 RMSD 1.3 | MM-GBSA dE -55.7 (strain-corrected -50.6) | ligand moved 1.12 A
+32/46 crystal=False seed 4 rank 5 vina -6.93 RMSD 8.1 | MM-GBSA dE -34.3 (strain-corrected -31.1) | ligand moved 1.16 A
+33/46 crystal=False seed 4 rank 6 vina -6.85 RMSD 7.8 | MM-GBSA dE -51.5 (strain-corrected -43.7) | ligand moved 1.00 A
+34/46 crystal=False seed 4 rank 7 vina -6.79 RMSD 2.7 | MM-GBSA dE -51.0 (strain-corrected -48.0) | ligand moved 1.12 A
+35/46 crystal=False seed 4 rank 8 vina -6.63 RMSD 8.2 | MM-GBSA dE -50.5 (strain-corrected -46.0) | ligand moved 1.93 A
+36/46 crystal=False seed 4 rank 9 vina -6.61 RMSD 7.7 | MM-GBSA dE -51.2 (strain-corrected -43.6) | ligand moved 1.03 A
+37/46 crystal=False seed 5 rank 1 vina -7.21 RMSD 8.0 | MM-GBSA dE -34.7 (strain-corrected -33.3) | ligand moved 1.76 A
+38/46 crystal=False seed 5 rank 2 vina -7.14 RMSD 8.7 | MM-GBSA dE -45.6 (strain-corrected -37.1) | ligand moved 1.04 A
+39/46 crystal=False seed 5 rank 3 vina -7.13 RMSD 1.2 | MM-GBSA dE -56.0 (strain-corrected -52.4) | ligand moved 0.84 A
+40/46 crystal=False seed 5 rank 4 vina -7.03 RMSD 8.6 | MM-GBSA dE -44.1 (strain-corrected -36.9) | ligand moved 0.96 A
+41/46 crystal=False seed 5 rank 5 vina -7.02 RMSD 8.0 | MM-GBSA dE -33.0 (strain-corrected -31.3) | ligand moved 1.31 A
+42/46 crystal=False seed 5 rank 6 vina -6.85 RMSD 8.3 | MM-GBSA dE -43.3 (strain-corrected -31.4) | ligand moved 1.36 A
+43/46 crystal=False seed 5 rank 7 vina -6.85 RMSD 8.3 | MM-GBSA dE -49.2 (strain-corrected -44.0) | ligand moved 1.08 A
+44/46 crystal=False seed 5 rank 8 vina -6.79 RMSD 7.7 | MM-GBSA dE -51.9 (strain-corrected -44.2) | ligand moved 1.61 A
+45/46 crystal=False seed 5 rank 9 vina -6.73 RMSD 2.8 | MM-GBSA dE -52.3 (strain-corrected -49.2) | ligand moved 1.85 A
+46/46 crystal=True seed 0 rank 0 vina - RMSD 0.0 | MM-GBSA dE -49.4 (strain-corrected -44.5) | ligand moved 0.82 A
